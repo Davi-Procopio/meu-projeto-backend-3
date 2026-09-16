@@ -63,7 +63,7 @@ app.post("/player/takeDamage", (req: Request, res: Response) =>{
 app.listen(PORT, () => {
 console.log(`Servidor rodando em http://localhost:${PORT}`);
 console.log("Rotas disponíveis: ");
-console.log('GET http://localhost:${PORT}/player - obter informações dos players')
-console.log('POST http://localhost:${PORT}/player/attack - atacar o player')
-console.log('POST http://localhost:${PORT}/player/takeDamage - causar dano ao player')
+console.log(`GET http://localhost:${PORT}/player - obter informações dos players`);
+console.log(`POST http://localhost:${PORT}/player/attack - atacar o player`);
+console.log(`POST http://localhost:${PORT}/player/takeDamage - causar dano ao player`);
 });
